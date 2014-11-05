@@ -1,8 +1,62 @@
 /* Set Your Own Margin & Padding */
+body {
+	background: black;
+}
+section {
+	color: white;
+}
 h2, h3, p {
 	margin: 0;
 }
 
+h2 {
+	font-family: 'Merienda', cursive;
+	font-size: 4em;
+}
+
+h3 {
+	font-size: 2em;
+}
+h3, p {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h4 {
+	font-size: 1.6em;
+}
+p {
+	font-size: 1.3em;
+}
+
+img {
+	height: 52px;
+	width: 52px;
+}
+
+a {
+	text-decoration: none;
+	color: #0eabee;
+}
+
+
+.color-1 {
+	background-color: #ffbd1e;
+}
+.color-2 {
+	background-color: #0eabee;
+}
+.color-3 {
+	background-color: #fe0600;
+}
+.color-4 {
+	background-color: #7d3f68;
+}
+.color-5 {
+	background-color: #335777;
+}
+.color-6 {
+	background-color: #47c84a;
+}
 /* Layout for Style Tile*/
 section {
 	margin: 20px 0;
@@ -11,6 +65,10 @@ section {
 .color-1,
 .color-2,
 .color-3,
+.color-4,
+.color-5,
+.color-6,
+
 .pattern-1,
 .pattern-2,
 .pattern-3, 
