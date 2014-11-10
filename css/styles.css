@@ -1,6 +1,6 @@
 /* Set Your Own Margin & Padding */
 .header {
-	height: 11em;
+	height: 8em;
 	width: 100%;
 	background-color: white;
 }
@@ -40,7 +40,6 @@ h4 {
 p {
 	font-size: 1.3em;
 	color: white;
-	width: 50%;
 }
 
 
@@ -49,18 +48,24 @@ a {
 	color: #0eabee;
 }
 
-.hours {
-	float: left;
-	max-width: 100%;
-	margin-right: 5em;
-	margin-bottom: 2em;
-
+h5 {
+	font-family: 'Source Sans Pro', sans-serif;
+	color:  #D967FF;
+	text-indent: 5.5em;
+	margin-top: .5em;
 }
+
+
+.hours p{
+	float: left;
+	max-width: 50%;
+	margin-right: 2em;
+}
+
+
 .map {
-	float: center;
+float: center;
 	margin: auto;
-	max-width: 100%;
-	margin-top: 1em;
 }
 
 .about {
@@ -71,6 +76,8 @@ a {
 
 .menu {
 	margin-bottom: 2em;
+	float: left;
+	text-align: left;
 }
 
 .150 {
@@ -78,7 +85,7 @@ a {
 	border-radius: 5em;
 }
 .contact {
-	float: left;
+	display: inline-block;
 	width: 100%;
 	margin-bottom: 2em;
 }
@@ -95,6 +102,13 @@ a {
 
 .price {
 	margin-bottom: 2em;
+}
+
+.plate {
+	margin-bottom: 2em;
+	display:inline-block;
+	margin-left: 5em;
+	text-align: center;
 }
 .price p h3{
 	text-align: left;
