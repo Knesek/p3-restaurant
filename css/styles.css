@@ -1,0 +1,153 @@
+/* Set Your Own Margin & Padding */
+.header {
+	height: 11em;
+	width: 100%;
+	background-color: white;
+}
+.header img {
+	width: 200px;
+	height: 120px;
+	display: block;
+	margin: auto;}
+
+body {
+	background: black;
+}
+section {
+	color: white;
+}
+h2, h3, p {
+	margin: 0;
+}
+
+h2 {
+	font-family: 'Merienda', cursive;
+	font-size: 2.25em;
+	color: white;
+}
+
+h3 {
+	font-size: 2em;
+}
+h3, p {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+}
+
+h4 {
+	font-size: 1.6em;
+}
+p {
+	font-size: 1.3em;
+	color: white;
+	width: 50%;
+}
+
+
+a {
+	text-decoration: none;
+	color: #0eabee;
+}
+
+.hours {
+	float: left;
+	max-width: 100%;
+	margin-right: 5em;
+	margin-bottom: 2em;
+
+}
+.map {
+	float: center;
+	margin: auto;
+	max-width: 100%;
+	margin-top: 1em;
+}
+
+.about {
+	max-width: 100%;
+	float: left;
+	margin-bottom: 2em;
+}
+
+.menu {
+	margin-bottom: 2em;
+}
+
+.150 {
+	background-color: #ffbd1e;
+	border-radius: 5em;
+}
+.contact {
+	float: left;
+	width: 100%;
+	margin-bottom: 2em;
+}
+
+.container {
+	max-width: 740px;
+	display: block;
+	margin: auto;
+}
+
+.section {
+	float: left;
+}
+
+.price {
+	margin-bottom: 2em;
+}
+.price p h3{
+	text-align: left;
+	width: 10em;
+	float: left;
+	margin-bottom: 2em;
+}
+.color-1 {
+	background-color: #ffbd1e;
+	border-radius: 5em;
+}
+.color-2 {
+	background-color: #0eabee;
+	border-radius: 5em;
+}
+.color-3 {
+	background-color: #fe0600;
+	border-radius: 5em;
+}
+.color-4 {
+	background-color:  #47c84a;
+	border-radius: 5em;
+}
+.color-5 {
+	background-color: #335777;
+}
+.color-6 {
+	background-color: #47c84a;
+}
+/* Layout for Style Tile*/
+
+.color-1,
+.color-2,
+.color-3,
+.color-4,
+.color-5,
+.color-6,
+
+.pattern-1,
+.pattern-2,
+.pattern-3, 
+.imagery-1,
+.imagery-2,
+.imagery-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
